@@ -1,0 +1,52 @@
+body {
+  min-height: 105rem;
+  padding-top: 5.5rem;
+}
+.bg-batu{
+	background-color:rgb(75,69,102);
+}
+.btn-outline-batu{
+	
+}
+
+
+.btn-outline-batu {
+  color: rgb(213,213,213);
+  background-color: transparent;
+  background-image: none;
+  border-color: rgb(213,213,213);
+}
+
+.btn-outline-batu:hover {
+  color: #fff;
+  background-color: rgb(213,213,213);
+  border-color: rgb(213,213,213);
+}
+
+.btn-outline-batu:focus, .btn-outline-batu.focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+.btn-outline-batu.disabled, .btn-outline-batu:disabled {
+  color: rgb(213,213,213);
+  background-color: transparent;
+}
+
+.btn-outline-batu:not(:disabled):not(.disabled):active, .btn-outline-batu:not(:disabled):not(.disabled).active,
+.show > .btn-outline-batu.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(213,213,213);
+  border-color: rgb(213,213,213);
+}
+
+.btn-outline-batu:not(:disabled):not(.disabled):active:focus, .btn-outline-batu:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-batu.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+.br{
+	margin-bottom:20px;
+}
+.linus{
+	width:220px;
+	height:306px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport"content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">			
+		<title>Hesap Makinesi</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style2.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					
+				</div>
+				<div class="col-md-4 align-baseline px-30">
+					<div class="row">
+						<input type="text" size="10" id="display" readonly class="form-control form-control-sm">
+					</div>
+					<div class="row">
+						<input type="button" class="btn btn-info" value="C" onclick='$("#display").val("")'>
+						<input type="button" class="btn btn-info hesap" value="(">
+						<input type="button" class="btn btn-info hesap" value=")">
+						<input type="button" class="btn btn-info hesap" value="/">
+					</div>
+					<div class="row">
+						<input type="button" class="btn btn-info hesap" value="7">
+						<input type="button" class="btn btn-info hesap" value="8">
+						<input type="button" class="btn btn-info hesap" value="9">
+						<input type="button" class="btn btn-info hesap" value="*">
+					</div>
+					<div class="row">
+						<input type="button" class="btn btn-info hesap" value="4">
+						<input type="button" class="btn btn-info hesap" value="5">
+						<input type="button" class="btn btn-info hesap" value="6">
+						<input type="button" class="btn btn-info hesap" value="-">
+					</div>
+					<div class="row">
+						<input type="button" class="btn btn-info hesap" value="1">
+						<input type="button" class="btn btn-info hesap" value="2">
+						<input type="button" class="btn btn-info hesap" value="3">
+						<input type="button" class="btn btn-info hesap" value="+">
+					</div>
+					<div class="row">
+						<input type="button" class="btn btn-info hesap" value="%">
+						<input type="button" class="btn btn-info hesap" value="0">
+						<input type="button" class="btn btn-info hesap" value=".">
+						<input type="button" class="btn btn-info e" value="=">
+					</div>
+					<div class="row">
+						<input type="password" class="x" id="bayram"/>
+					</div>
+					<div class="row">
+						<input type="text" readonly class="text-danger" id="lab">&nbsp;</label>
+					</div>
+					<div class="row">
+						<input type="password" class="y" id="bayram"/>
+					</div>
+				</div>
+				<div class="col-md-4">
+					
+				</div>
+			</div>
+		</div>
+				
+		<script src="js/jquery3-3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script2.js"></script>
+	</body>
+</html>
